@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main(void) {
+	int t, n, m, a;
+	scanf("%d",&t);
+	while(t--){
+	    scanf("%d %d",&n,&m);
+	    a=m*6*6;
+	    if(n<=a)
+	    printf("yes\n");
+	    else
+	    printf("no\n");
+	}
+	return 0;
+}
+
