@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main(void) {
+    int x,y,t,a,b,e;
+    scanf("%d",&t);
+    while(t--){
+        scanf("%d %d %d %d",&a,&b,&x,&y);
+        e=(x*y)/a;
+        if(b<=e)
+          printf("yes\n");
+        else 
+            printf("no\n");
+    }
+	return 0;
+}
+
