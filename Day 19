@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main(void) {
+	int t,p,q,PA,PB,QA,QB;
+	scanf("%d",&t);
+	while(t--){
+	    scanf("%d %d %d %d",&PA,&PB,&QA,&QB);
+	    (PA<PB)?(p=PB):(p=PA);
+	    (QA<QB)?(q=QB):(q=QA);
+	    (p>q)?printf("Q\n") :((p<q)?printf("P\n") :printf("TIE\n"));
+	}
+	return 0;
+}
+
