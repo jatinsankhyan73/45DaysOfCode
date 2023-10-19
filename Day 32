@@ -1,0 +1,23 @@
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int test_cases;
+    scanf("%d", &test_cases);
+    
+    while(test_cases--)
+    {
+        int i, people, Maxage, age, count = 0;
+        scanf("%d %d", &people, &Maxage);
+        
+        for(i = 0; i < people; i++)
+        {
+            scanf("%d", &age);
+            age >= Maxage ? count++ : (count = count);
+        }
+        printf("%d\n", count);
+    }
+    return 0;
+}
