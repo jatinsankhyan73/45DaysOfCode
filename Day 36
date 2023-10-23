@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main(void) {
+	int t,x,y;
+	scanf("%d",&t);
+	while(t--){
+	    scanf("%d %d",&x,&y);
+	    if (x/y<=20)
+	        printf("%d\n",x/y);
+	    else if(x/y>20)
+	        printf("20\n");
+	}
+	return 0;
+}
+
