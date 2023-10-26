@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main(void) {
+    int t,n,a,b,c;
+    scanf("%d",&t);
+    while(t--){
+        scanf("%d%d%d",&n,&a,&b);
+        c=2*(180+n)-a-b;
+        printf("%d\n",c);
+    }
+	return 0;
+}
+
