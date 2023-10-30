@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main(void) {
+	int t;
+	float N,n,m;
+	scanf("%d",&t);
+	while(t--){
+	    scanf("%f %f ",&n,&m);
+	    N=n-(n*10/100);
+	    if(N<m){
+	        printf("ONLINE\n");
+	    }
+	    else if(N>m){
+	        printf("DINING\n\n");
+	    }
+	    else{
+	        printf("EITHER\n");
+	    }
+	}
+	return 0;
+}
+
