@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main(void) {
+	int t,x,y,d,a;
+	scanf("%d",&t);
+	while(t--){
+	    scanf("%d %d %d",&x,&y,&d);
+	    (x>=y)?(a=x-y):(a=y-x);
+	    if(a<=d){
+	        printf("YES\n");
+	    }
+	    else {
+	        printf("NO\n");
+	    }
+	}
+	return 0;
+}
