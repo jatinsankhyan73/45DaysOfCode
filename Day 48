@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main(void) {
+	int  t,n,x,d,life;
+	scanf("%d",&t);
+	while(t--){
+	    scanf("%d %d %d",&n,&x,&d);
+	    life = n/(x*5)+d;
+	    printf("%d\n",life);
+	}
+	return 0;
+}
+
